@@ -1,0 +1,175 @@
+<!doctype html>
+
+<html>
+
+<head> <title> My Website </title> </head>
+
+<style>
+
+#leftbar
+	{
+	width:200px;
+	height:70px;
+	padding:10px;
+	boxshadow:0px 0px 10px gray;
+	position:fixed;
+	top:50%;
+	left:-150px;
+	cursor:pointer;
+	transition:0.30;
+	border-radious:2px;
+	}
+
+#leftbar:hover
+	{
+	left:0px;
+	background:white;
+	border-radious:4px;
+	}
+
+@keyframes comefrombottom {
+    from {margin-top: 30px;}
+    to {margin-top: 0px;}
+}
+
+.picstyle
+{
+	width:220px; 
+	cursor:pointer;
+	title:"bhumika's profile";
+	display:block;
+	margin:auto;
+	animation: comefrombottom 2s ease-out;
+
+}
+@keyframes comefromright {
+    from {margin-left: 10px;}
+    to {margin-left: 0px;}
+}
+
+	#navbar ol li
+	{
+		animation: comefromright 1s ease-out;
+		font-family:verdana;
+		width:23%;
+		padding:6px;
+		display:inline-block;
+		margin:auto;
+		cursor:pointer;
+		transition:0.50s;
+		text-align:center;
+		list-style:none;
+	}
+	#navbar ol li:hover
+	{
+	font-family:verdana;
+	background:#FFB1B1;
+	padding:6px;
+	border-radius:40px;
+	transform:scale(1.10);
+	box-shadow:0px 0px 5px #EEEDEB;
+	}
+	
+a:link{color:"#FF6969" ;text-decoration:none}
+a:hover{text-decoration:underline;color:white}
+a:visited{color:"#FF6969" }
+
+#spic
+{
+width:10px;
+height:10px;
+}
+
+@keyframes fadeout {
+    from {opacity: 0}
+    to {opacity: 0.99;}
+}
+
+#fadeout
+	{
+	    animation: fadeout 2s ease-in-out;
+}
+</style>
+
+<h1
+	 style="background:#0C1844;text-align:center; font-family: 'Georgia', serif; margin-top:0px ; padding:10px">
+	 <font color= "#FF6969" >
+	 Bhumika Papola's Personal Website
+	 </font>
+	 </h1>
+
+<body  style= "font-family:Helvetica" bgcolor="FEFDED">
+<div id="navbar">
+<ol>
+	<li><a href="#about">About Me</a></li>
+	<li><a href="practicework.html"> Practice Work </a></li>
+	<li><a href="https://www.behance.net/bhumikasingh24"> Behance </a></li>
+	<li><a href="#contact">Contact</a></li>
+	</ol>
+</div>
+
+<div id="leftbar">
+	<a href="https://www.instagram.com/bhumi.shhh/"> <img src="photo/ig.png" style="width:60px"></a>
+	<a href="https://wa.me/qr/6FRX2JJT6QW6J1"> <img src="photo/wp.png"style="width:60px"></a>
+	<a href="https://in.pinterest.com/bhumishh7/"> <img src="photo/pin.png"style="width:60px"></a>
+	</div>
+
+<img src="photo/bhumi.png" title="Bhumika's Profile" alt="my pic" width="200" height="267" 
+	class="picstyle">
+
+<h1 
+	style= "font-size:30px;text-align:center"> 
+	<font color=#C80036 face=Verdana> 
+	Bhumika Papola 
+	</font> 
+	 </h1>
+
+<p 
+	style="margin:auto;text-align:center; font-family:'Helvetica', san-serif; color:#C80036; font-size:22px">
+	Graphic Designer
+	</p>
+<div id= "fadeout">
+<h2  style= "font-family:Helvetica" bgcolor="541212">
+	<font color="C80036" face="arial">	
+	<a name="about"><b>
+	About me</b>
+	</font>
+	</h2>
+
+<hr color=#C80036 size="5"/>
+
+<p 
+	style="color:#0C1844 ;font-size:18px;text-align:justify">
+	Hello, I'm Bhumika Papola, a 19-year-old enthusiast currently pursuing graphic, web design, and development at Arena Animation. I have completed my 12th grade from the CBSE board. I am dedicated to creating innovative and functional digital experiences. Explore my work to see my passion for design and development in action.
+	</p>
+
+<h2>
+	<font color="C80036" face="arial">
+	<a name="contact"><b>
+	Contact</b>
+	</font>
+	</h2>
+
+<hr color=#C80036 size="5"/>
+
+
+<h4 
+	style="color:#0C1844">
+	Feel free to reach out to me via
+	<br/>
+	Phone no. &nbsp;  9311467663 
+	<br/>
+	Email &nbsp; bhumikasingh2075@gmail.com
+	</h4>
+
+
+<h2
+	style="background:#0C1844; color:#FF6969; font-family: helvetica; text-align:center; margin-bottom:0px; ">
+	 &copy; 2024 Bhumika Papola All rights reserved.
+</div>
+</body>
+
+</html>
+
+
+
